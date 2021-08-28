@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,225,0.3),rgba(0,168,225,0.3)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy9ny3ut3Q_wi8a2ShGWqDiXWPCAhGUt9yJXQ7EpOoGSGv1WSEfIaLTINij0TswwiDyF4&usqp=CAU');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border-radius: 90px;
+clip-path: polygon(200% 0%, 100% 75%, 30% 100%, 0 75%, 75% 0 1%,);
+position: relative;
+}
+.header:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to righ #1e5799 0%, #3ccbdb 0%, #16c9f6   100%)
+}
+.nabar:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to righ #1e5799 0%, #3ccbdb 0%, #16c9f6   100%)
+}
+.nav-item a{
+     color: #ffff!important;
+     /* background-color: lightblue; */
+    /* background-color:#3ccbdb; */
+     font-weight: bold;
+}
+.header-section{
+width: 100%;
+height: inherit;
+color:#fff;
+text-align: center;
+position: relative;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.8; 
+    font-weight: 900;
+    color: #606060;
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.header-buttons a{
+    border: 1px solid #fff;
+     border-radius: 100px;
+     margin: 0 5px;
+     padding: 12px 35px;
+     outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.header-buttons a:hover{
+color: #50d1c0;
+background-color: #fff;
+text-decoration: none;
+box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+.center-div p{
+font-size: 1.3rem;
+padding: 10px 0 20px 0;
+color: #fff;
+}
+/* extra div start */
+.header-extra-div{
+    width: 100%; height: auto;
+    margin: 200px 0;
+    text-align: center;
+    
+}
+.extra-div{
+    /* background: #fff; */
+    border: medium none;
+    padding: 50px!important;
+    /* border-radius: 1px; */
+    transition: 0.3s;
+    height: 89vh;
+}
+.extra-div:hover {
+    top: 40px;
+   box-shadow:  0 0 20px 0 rgb(0,0,0,0.3);
+   transform: translate(-20px);
+}
+.service-icons{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 2rem;
+ bottom:31rem;
+}
+.names my-3{
+text-decoration: none;
+transform:none;
+}
+.names my-3 :hover{
+   text-decoration: none;
+   box-sizing: none;
+   transform: none;
+}
+.service-icons p{
+     font-size: 0.9rem; 
+    /* line-height: 1.8; */
+    /* font-weight: 900rem; */
+    color: #606060;
+ }
+.internal{
+    margin-top: 20;
+    color:brown;
+}
+.center p{
+text-align:center ;
+color:#50d1c0;
+margin-left: 20px;
+left: 20px;
+right: 200rem;
+display: flex;
+text-align: center;
+align-items: center;
+}
+.center{
+    margin-top: -1rem;
+    left: 10rem;
+}
+.partical p{
+   text-align: center;
+   /* color:yellow; */
+   left: 800px;
+   right: 900;
+}
+/* .center-2{
+margin-top:7rem;
+bottom: 200rem;
+} */
+
+/* .center-3{
+    margin-top: -4rem;
+    bottom: 9rem; */
+    /* } */
+
+.main{
+    /* color:violet; */
+    display:flex
+    margin-top 20rem;
+}
+
+.pragraph p{
+    text-align: center;
+    align-items: center;
+    left: +5rem;
+    padding: 200;
+    position: absolute;
+    width: 500rem;
+    margin-top: -3.1rem;
+}
+/* extra div start */
+
+/* header div  */
+progress{
+    height: 0.4rem!important;
+    margin-bottom: 25px!important;
+    background-color: #606060;
+}
+i{
+    color: #2fccd0;
+}
+.div{
+    background-color: violet;
+    margin-bottom: 100px;
+    top: 20rem;
+    right: -20rem;
+    color:turquoise;
+}
+ .projet-work .center-div{
+bottom: 90rem;
+margin-top: -800px;
+color:brown;
+}
+/* text start */
+.projet-work{
+    margin-top: -100px 0;
+    color: #3ccbdb;
+}
+.projet-work h1{
+font-size: 2rem;
+text-align: center;
+}
+/* text end */
